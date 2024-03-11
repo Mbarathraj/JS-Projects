@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body >
+    <div class="chat-toggler">
+        <span class="material-symbols-outlined">
+            chat
+            </span>
+            <span class="material-symbols-outlined">
+                close
+            </span>
+    </div>
+    <div class="chatbot">
+        <header>
+            <h3>Chatbot</h3>
+        </header>
+        <ul class="chatbox">
+        <li class="chat incoming">
+            <i class="fa-solid fa-robot"></i>
+            <p>Hi there ✋ <br> How can I help you today? </p>
+        </li>
+        <li class="chat outgoing">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, repudiandae.</p>
+        </li>    
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <div id="send-btn"><img src="./send-message.png" alt="" style="height: 22px; width: 22px;"></div>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
