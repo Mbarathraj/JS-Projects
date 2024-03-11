@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+}
+.output-area{
+    min-height: 150px;
+    width: 250px;
+    padding: 10px;
+   border: 1px solid rgba(0,0,0,0.2);
+  
+}
+button{
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: green;
+    color: white;
+}
