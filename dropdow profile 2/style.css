@@ -1,0 +1,73 @@
+body{
+    min-height: 100vh;
+    background: linear-gradient(45deg,rgb(0, 119, 255),rgb(255, 0, 179));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown{
+ width: 300px;
+ height: 90px;
+ position: relative;
+ background-color: white;
+ transition: 0.5s;
+ border-radius: 2vh;
+ overflow: hidden;
+}
+.drop-box{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    right: 0vh;
+    bottom: 0;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 200;
+}
+.userbox{
+    position: relative;
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+    padding-left: 2vh;
+    width: 281px;
+    height: 90px;
+}
+.userbox img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+.userbox p{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vh;
+}
+.active{
+    height: 400px;
+    transition: 0.5s;
+}
+.adropbox{
+    rotate: 180deg;
+}
+.details{
+    padding: 0.5vh;
+    text-align: justify;
+    color: rgba(0, 0,0, 0.8);
+}
+.details p{
+    text-indent: 15px;
+}
+.star{
+    color: gold;
+}
+h5{
+    margin-top: 0;
+    padding-left: 0.4vh;
+}
